@@ -86,3 +86,7 @@ Once your server is up and running, navigate to `http://localhost:3000/` in your
 └── styles
 
 ```
+
+---
+
+The finished version of this workshop can be found [here](https://github.com/miroapp/WAD-workshop-finished).
