@@ -20,6 +20,11 @@ Miro capabilities covered in this sample app:
 - [x] Miro REST API
 - [x] Mirotone (styling)
 
+## Workshop Resources
+
+- [x] [Developer Documentation](https://developers.miro.com/)
+- [x] [Mirotone documentation](https://www.mirotone.xyz/)
+
 ## Prerequisites
 
 1. Create a [developer team in Miro](https://miro.com/app/dashboard/?createDevTeam=1)
