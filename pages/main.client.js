@@ -14,8 +14,8 @@ export default function Main() {
   return (
     <div className={"container"}>
       <Head>
-        <title>We Are Developers Workshop</title>
-        <meta name="description" content="We Are Developers Workshop" />
+        <title>Miro Workshop</title>
+        <meta name="description" content="Miro Workshop" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

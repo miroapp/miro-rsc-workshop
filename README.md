@@ -1,4 +1,4 @@
-# Miro Demo: We are Developers '22
+# Miro Workshop: React 18 + Server Components
 
 This sample app demonstrates the use of the Miro REST API and OAuth authorization. This app is based on the Next.js 12 React Server Components Demo app and includes both react server and react client components. We’ve created our own project based on this, and added the Miro OAuth flow to be included in some boilerplate functionality.
 
@@ -24,14 +24,14 @@ Miro capabilities covered in this sample app:
 
 - [x] [Developer Documentation](https://developers.miro.com/)
 - [x] [Mirotone documentation](https://www.mirotone.xyz/)
-- [x] [Discord Server](https://discord.com/channels/933103778855534614/983734363797749760)
+- [x] [Discord Server](bit.ly/miro-developers)
 
 ## Prerequisites
 
 1. Create a [developer team in Miro](https://miro.com/app/dashboard/?createDevTeam=1)
 2. Create an [app in Miro](https://miro.com/app/settings/user-profile/apps)
 3. Create a board in Miro that you'd like to manipulate using our REST API
-4. Open up our [Discord Server](https://discord.com/channels/933103778855534614/983734363797749760) to see code snippets, ask questions, etc. 
+4. Open up our [Discord Server](bit.ly/miro-developers) to see code snippets, ask questions, etc.
 
 ## How to start
 
@@ -96,4 +96,4 @@ Once your server is up and running, navigate to `http://localhost:3000/` in your
 
 ---
 
-The finished version of this workshop can be found [here](https://github.com/miroapp/WAD-workshop-finished).
+The finished version of this workshop can be found [here](https://github.com/miroapp/miro-workshop-finished).
