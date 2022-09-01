@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Main() {
   const [authenticated, setAuthenticated] = useState(false);
@@ -19,7 +20,13 @@ export default function Main() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {authenticated ? <></> : <a href="/api/signin">Sign In</a>}
+      {authenticated ? (
+        <></>
+      ) : (
+        <Link href="/api/signin">
+          <a>Sign In</a>
+        </Link>
+      )}
     </div>
   );
 }
