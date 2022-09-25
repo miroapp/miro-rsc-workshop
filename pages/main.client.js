@@ -13,7 +13,7 @@ export default function Main() {
   }, []);
 
   return (
-    <div className={"container"}>
+    <section>
       <Head>
         <title>Miro Workshop</title>
         <meta name="description" content="Miro Workshop" />
@@ -27,6 +27,6 @@ export default function Main() {
           <a>Sign In</a>
         </Link>
       )}
-    </div>
+    </section>
   );
 }
