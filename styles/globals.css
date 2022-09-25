@@ -57,14 +57,14 @@ input {
   color: #4262ff;
 }
 
-#miro-item-controls-container {
+.miro-item-controls-container {
   display: flex;
   width: 100%;
   gap: 20px;
   align-items: flex-end;
 }
 
-#miro-item-input-container {
+.miro-item-input-container {
   flex: 1;
   display: flex;
   flex-direction: column;
