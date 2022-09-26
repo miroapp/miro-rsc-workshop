@@ -1,5 +1,3 @@
-// pages/home.server.js
-
 import { Suspense } from "react";
 
 import Main from "./main.client";
