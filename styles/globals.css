@@ -6,12 +6,12 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-main {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  padding: 50px;
+  margin: 50px;
 }
 
 a {
@@ -37,7 +37,7 @@ input {
   box-sizing: border-box;
 }
 
-article {
+.miro-item-container {
   height: 100%;
   width: 100%;
   border-radius: 10px;
@@ -52,22 +52,34 @@ article {
   padding: 20px;
 }
 
-article > .form-group {
-  width: 100%;
-}
-
-article h3 {
+.miro-item-container h3 {
   font-weight: bold;
   color: #4262ff;
+}
+
+#miro-item-controls-container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+#miro-item-input-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button-primary {
+  flex: 1;
 }
 
 .form-group {
   margin-bottom: 0px;
 }
 
-time {
+#time {
   width: 100%;
-  display: block;
   text-align: center;
-  padding: 1em;
 }
